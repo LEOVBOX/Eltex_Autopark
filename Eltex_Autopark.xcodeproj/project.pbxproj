@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3B1F8052CB17AE30067D39C /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1F8042CB17AE30067D39C /* Vehicle.swift */; };
+		B3B1F8072CB17B300067D39C /* LoadError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1F8062CB17B300067D39C /* LoadError.swift */; };
+		B3B1F8092CB17D370067D39C /* CargoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1F8082CB17D370067D39C /* CargoType.swift */; };
+		B3B1F80B2CB17DAF0067D39C /* Cargo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1F80A2CB17DAF0067D39C /* Cargo.swift */; };
+		B3B1F80D2CB17E230067D39C /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1F80C2CB17E230067D39C /* Truck.swift */; };
+		B3B1F80F2CB17E5B0067D39C /* Fleet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1F80E2CB17E5B0067D39C /* Fleet.swift */; };
 		B3E806F62CAC4E9400985B35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E806F52CAC4E9400985B35 /* AppDelegate.swift */; };
 		B3E806F82CAC4E9400985B35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E806F72CAC4E9400985B35 /* SceneDelegate.swift */; };
 		B3E806FA2CAC4E9400985B35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E806F92CAC4E9400985B35 /* ViewController.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3B1F8042CB17AE30067D39C /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		B3B1F8062CB17B300067D39C /* LoadError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadError.swift; sourceTree = "<group>"; };
+		B3B1F8082CB17D370067D39C /* CargoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoType.swift; sourceTree = "<group>"; };
+		B3B1F80A2CB17DAF0067D39C /* Cargo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cargo.swift; sourceTree = "<group>"; };
+		B3B1F80C2CB17E230067D39C /* Truck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truck.swift; sourceTree = "<group>"; };
+		B3B1F80E2CB17E5B0067D39C /* Fleet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fleet.swift; sourceTree = "<group>"; };
 		B3E806F22CAC4E9400985B35 /* Eltex_Autopark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eltex_Autopark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E806F52CAC4E9400985B35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3E806F72CAC4E9400985B35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,13 +68,19 @@
 		B3E806F42CAC4E9400985B35 /* Eltex_Autopark */ = {
 			isa = PBXGroup;
 			children = (
+				B3B1F8082CB17D370067D39C /* CargoType.swift */,
 				B3E806F52CAC4E9400985B35 /* AppDelegate.swift */,
 				B3E806F72CAC4E9400985B35 /* SceneDelegate.swift */,
 				B3E806F92CAC4E9400985B35 /* ViewController.swift */,
+				B3B1F8062CB17B300067D39C /* LoadError.swift */,
 				B3E806FB2CAC4E9400985B35 /* Main.storyboard */,
 				B3E806FE2CAC4E9500985B35 /* Assets.xcassets */,
 				B3E807002CAC4E9500985B35 /* LaunchScreen.storyboard */,
 				B3E807032CAC4E9500985B35 /* Info.plist */,
+				B3B1F8042CB17AE30067D39C /* Vehicle.swift */,
+				B3B1F80A2CB17DAF0067D39C /* Cargo.swift */,
+				B3B1F80C2CB17E230067D39C /* Truck.swift */,
+				B3B1F80E2CB17E5B0067D39C /* Fleet.swift */,
 			);
 			path = Eltex_Autopark;
 			sourceTree = "<group>";
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B1F8092CB17D370067D39C /* CargoType.swift in Sources */,
+				B3B1F8052CB17AE30067D39C /* Vehicle.swift in Sources */,
 				B3E806FA2CAC4E9400985B35 /* ViewController.swift in Sources */,
 				B3E806F62CAC4E9400985B35 /* AppDelegate.swift in Sources */,
+				B3B1F80F2CB17E5B0067D39C /* Fleet.swift in Sources */,
+				B3B1F80B2CB17DAF0067D39C /* Cargo.swift in Sources */,
 				B3E806F82CAC4E9400985B35 /* SceneDelegate.swift in Sources */,
+				B3B1F8072CB17B300067D39C /* LoadError.swift in Sources */,
+				B3B1F80D2CB17E230067D39C /* Truck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
